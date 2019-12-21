@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PatCoffeeMain2Activity">
+
+    <Button
+        android:id="@+id/foodButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOODS"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/drinksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DRINKS"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/snacksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SNACKS"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="@string/about_coffee"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:ellipsize="marquee"/>
+
+</LinearLayout>
